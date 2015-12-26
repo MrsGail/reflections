@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Initializing a reporsitory causes git metadata to be written into the
+	hidden .git directory.  This will allow git to track information about 
+	commits and saved files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Allows you to identify files to be committed in a group with a
+	single commit comments.
+	Allows you to keep commits logically grouped.
+	
