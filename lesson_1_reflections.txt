@@ -1,0 +1,46 @@
+I am having fun using UNIX commands again.  It has been over 8 years
+ since I last used them, and I remember them.  Who says you forget 
+ stuff after 55 - hah!
+
+How did viewing a diff between two versions of a file help you see the bug
+ that was introduced?
+ 	The diff(aka FC) narrowed down the search to just those lines that were
+  		different.  Reduced the set of lines for triage.  Image if an error had
+  		been thrown with the specific line number or module name.. even faster.
+
+How could having easy access to the entire history of a file make you a
+   more efficient programmer in the long term?
+   	You can roll back changes when they don't work to a working copy.
+   	You can share the file with others and see what changes they made by 
+   		doing a comparison.
+   	You can ask others to do a code review of a version while you continue
+   		to work on latter version
+
+What do you think are the pros and cons of manually choosing when to
+ create a commit, like you do in Git, vs having versions automatically
+ saved, like Google Docs does?
+ 	You can add value through the commit message for others to understand
+ 	You won't get half-finished work auto-committed
+ 	You are in charge of commits
+
+Why do you think some version control systems, like Git, allow saving
+ multiple files in one commit, while others, like Google Docs, treat
+ each file separately?
+ 	Software is usally done via multiple files, and thus they are 
+ 		dependent on each other and need to be treated as one software
+ 		collection of files.
+ 	On the other hand, most documents are not dependent upon other docs.
+
+How can you use the commands git log and git diff to view the history of
+  files?
+  	git log gives you commit comments and timestamps
+  	git diff compares two commits and gives you the changes
+
+How might using version control make you more confident to make changes
+  that could break something?
+  	very safe and confident
+
+Now that you have your workspace set up, what do you want to
+ try using Git for?
+  Software development
+  
