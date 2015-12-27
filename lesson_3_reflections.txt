@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+    When I want to share the code via GitHub
+    When I want to work on code from multiple platforms
+    
